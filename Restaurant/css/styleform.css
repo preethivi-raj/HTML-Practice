@@ -1,0 +1,51 @@
+body{
+    background: url(/images/gb.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regForm{
+    width: 400px;
+    margin: 250px auto;
+    padding:10px 20px 30px ;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+h3{
+    padding-top: 20px;
+    color:#E29578;
+}
+.regForm .tl{
+    display: block;
+}
+.input input{
+    width:100%;
+    font-size: 1.2em;
+    border: 1px solid green;
+    box-shadow: 2px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+ input:focus{
+    background-color:rgb(201, 196, 196);
+ }
+ 
+ .btn{
+      text-align: center;
+ }
+ button{
+    background-color:#83c5be;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border-color: 1px solid #006d77 ;
+
+ }
+.radio input{
+    accent-color: #83c5be;
+    -webkit-transform: scale(1.5);
+}

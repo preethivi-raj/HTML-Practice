@@ -1,0 +1,33 @@
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: decimal;
+}
+li{
+    margin:10px; 
+}
+table{
+    width: 300px;
+    margin: auto;
+    border-collapse: separate;
+}
+th{
+    text-transform: uppercase;
+    text-align: justify;
+    border-bottom: 2px solid black;
+    padding:10px;
+    
+}
+ td{
+    padding:10px;
+    border:1px solid  black;
+}
+
+.amt{
+    text-align: right;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
